@@ -2,15 +2,11 @@
 
 Exploratory analysis and logistic regression for bank customer churn in SAS.
 
-## Project files and local data inputs
-
-Data files listed below are local inputs, not bundled public downloads. See `PUBLIC_DATA_SETUP.md`.
+## Contents
 
 - `tools.sas`
 
 ## Run
-
-First restore the locally required data described in `PUBLIC_DATA_SETUP.md`.
 
 Open `tools.sas` in a SAS environment and set `DATA_DIR` to the directory containing the CSV. A SAS runtime is required.
 
@@ -18,5 +14,5 @@ Open `tools.sas` in a SAS environment and set `DATA_DIR` to the directory contai
 
 - Organized from the supplied project archives; duplicate folders, cache files and assignment handouts were not counted as separate projects.
 - Saved notebook outputs were cleared so old results are not mistaken for a current successful run.
-- Raw datasets are not included in this public source copy. See `PUBLIC_DATA_SETUP.md` for exact local filenames and expected columns. No new license is assigned.
+- The datasets are included in this repository in the repository root, so the project can run after cloning. They were added at the repository owner's request. Their original sources, licenses and terms were not independently verified, and no license is assigned to them here; credit and rights remain with the original data providers.
 - This is a portfolio/learning project, not a validated decision system. See `VALIDATION.md` for checks and remaining limits.
